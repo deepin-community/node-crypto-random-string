@@ -1,0 +1,43 @@
+node-crypto-random-string (3.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Apply multi-arch hints (foreign)
+  * New upstream version 3.3.0
+  * Refresh test patch
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 25 Dec 2020 13:22:16 +0100
+
+node-crypto-random-string (3.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Enable upstream test using tape instead of ava
+  * New upstream version 3.2.0
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 05 May 2020 09:12:27 +0200
+
+node-crypto-random-string (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #868434)
+
+ -- Vishnu Poothery <vishnupoothery@disroot.org>  Sun, 16 Jul 2017 09:46:02 +0000
